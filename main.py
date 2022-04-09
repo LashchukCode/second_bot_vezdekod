@@ -248,9 +248,6 @@ async def info(event: SimpleBotEvent) -> str:
                 await event.answer(strings.im_back, keyboard=keyboard.vopros_8_p_menu.get_keyboard())
             users[event.from_id].chatstate -= 1
 
-
-
-
-
+            
 if __name__ == '__main__':
     bot.run_forever()
